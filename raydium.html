@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Outside sample memo: Raydium</title>
+  <meta name="description" content="A short outside memo on Raydium&#x27;s public surface and a first 30 days, built only from public materials. Not affiliated with Raydium. Not a client engagement.">
+  <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the memo</a>
+
+<div class="frame single">
+  <main id="main">
+    <p class="back"><a href="index.html">Back to the full Jupiter sample plan</a></p>
+
+    <header class="masthead">
+      <h1><span class="kicker">Outside sample memo:</span> Raydium</h1>
+      <p class="stamp">Based only on public materials, checked 9 October 2026. Not affiliated with Raydium. Not a client engagement.</p>
+      <p class="byline">Written by <a href="https://x.com/nikola4888">Nikola</a></p>
+    </header>
+
+    <p class="lede">A shorter contrast to the Jupiter plan. Jupiter's problem is one brand over many products. Raydium has the same width, plus a newer problem: much of what its X account now announces is issued by someone else.</p>
+
+    <section>
+      <h2>What is actually public today</h2>
+      <p>The docs describe Raydium as Solana's largest-TVL DEX and list its surfaces: AMM v4, CPMM, CLMM, a stable AMM, farms, LaunchLab for token launches, Burn &amp; Earn for locked liquidity, and Raydium Perps.<a class="cite" href="#r1">[1]</a><a class="cite" href="#r2">[2]</a> Perps is a different kind of product. It lives at perps.raydium.io, runs on an off-chain order book operated by Orderly Network, routes its bug bounty through Orderly, and is not available in the US and a list of other places.<a class="cite" href="#r3">[3]</a></p>
+      <p>LaunchLab adds a third layer: third-party platforms can run their own branded launches on it, with their own fees and, as the docs put it, possibly their own terms and eligibility rules.<a class="cite" href="#r4">[4]</a> And X adds a fourth. In the week to 9 October, the most common kind of original post on @Raydium was a listing: tokenized stocks and other assets “via @sunrise”, several with “@Backpack Securities”, alongside “Stonk Capital Markets on Raydium”.<a class="cite" href="#r5">[5]</a><a class="cite" href="#r6">[6]</a><a class="cite" href="#r7">[7]</a> The docs index has no page that mentions tokenized stocks, Sunrise or Backpack.<a class="cite" href="#r2">[2]</a></p>
+      <p>The routing between all of that is one paragraph. The FAQ's “Still stuck?” sends people to the Discord's public support channels, tells them to ignore all DMs, and points bugs to GitHub.<a class="cite" href="#r8">[8]</a><a class="cite" href="#r9">[9]</a> The trust page is good and blunt: raydium.io is the only domain, and Raydium does not DM users first.<a class="cite" href="#r10">[10]</a> Where it thins out:</p>
+      <ul class="plain">
+        <li>A perps question, a LaunchLab-platform question and a stock-token question all arrive in the same Discord, but the answer lives with Orderly, with the platform, or with the issuer.<a class="cite" href="#r3">[3]</a><a class="cite" href="#r4">[4]</a><a class="cite" href="#r6">[6]</a></li>
+        <li>The site's own description still calls Raydium “an on-chain order book AMM”. The docs say the OpenBook order book integration has been deactivated.<a class="cite" href="#r11">[11]</a><a class="cite" href="#r1">[1]</a></li>
+        <li>The docs disagree on when LaunchLab arrived: August 2024 on the history page, 2025 on the introduction.<a class="cite" href="#r12">[12]</a><a class="cite" href="#r1">[1]</a></li>
+        <li>The trust page lists, among the parties scammers pretend to be, an unrelated AI company, twice, and tells readers to check a team member's handle against a team page it doesn't link.<a class="cite" href="#r10">[10]</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What I would set up in the first 30 days</h2>
+      <ol class="plain">
+        <li>One public routing page, built only from Raydium's own links: swaps, pools and farms to the docs and Discord; perps to the perps docs, with Orderly named as the operator; tokens launched through a platform to that platform; stock tokens to the issuer the listing post names. Every answer carries a link.</li>
+        <li>A pinned “what Raydium is and isn't” line for stock listings: Raydium is where the token trades; the issuer and its terms are named in the listing post.</li>
+        <li>The trust page's no-DM rule, copied word for word into a pin in every channel Raydium lists.</li>
+        <li>A docs-fix list, sent through whatever channel the team names: the site description, the LaunchLab date, the stray company name on the trust page. Reported, not posted.</li>
+        <li>A weekly note of repeated questions, split by surface: spot, perps, LaunchLab, stocks. That split shows where the routing page is failing.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>What I would not build yet</h2>
+      <ul class="plain">
+        <li>Answers about any stock token's backing, rights or eligibility. Those belong to the issuer, and I haven't read their terms.</li>
+        <li>A Discord channel structure or moderator roster. I can see the invite preview, not the server.<a class="cite" href="#r9">[9]</a></li>
+        <li>Anything about RAY buybacks or price, even though @Raydium posts about them. That conversation will happen without support's help.</li>
+        <li>Perps support beyond pointers. The deep reference lives on Orderly's side, by Raydium's own description.<a class="cite" href="#r3">[3]</a></li>
+        <li>Separate rooms per product. Until the routing page has run for a month, splitting rooms is guessing.</li>
+      </ul>
+    </section>
+
+  </main>
+</div>
+
+<footer class="foot single">
+  <p class="disclaim-all">Outside sample. Public materials only. Not affiliated. Not a client engagement. Not financial advice. No results claimed.</p>
+  <p class="disclaim">Sample memo. Figures only where sourced. Not financial advice. Not a Raydium document.</p>
+  <h2 class="src-head">Sources, checked 9 October 2026</h2>
+  <ol class="sources">
+    <li id="r1"><a href="https://docs.raydium.io/introduction/what-is-raydium">Raydium Docs: What is Raydium</a> <span class="url">https://docs.raydium.io/introduction/what-is-raydium</span></li>
+    <li id="r2"><a href="https://docs.raydium.io/llms.txt">Raydium Docs: full page index</a> <span class="url">https://docs.raydium.io/llms.txt</span></li>
+    <li id="r3"><a href="https://docs.raydium.io/products/perps/index">Raydium Docs: Raydium Perps</a> <span class="url">https://docs.raydium.io/products/perps/index</span></li>
+    <li id="r4"><a href="https://docs.raydium.io/user-flows/launchlab-platforms">Raydium Docs: LaunchLab platforms</a> <span class="url">https://docs.raydium.io/user-flows/launchlab-platforms</span></li>
+    <li id="r5"><a href="https://x.com/Raydium">X: @Raydium (posts 4 to 9 Oct 2026)</a> <span class="url">https://x.com/Raydium</span></li>
+    <li id="r6"><a href="https://x.com/Raydium/status/2107563162237075705">X: @Raydium, “$RACE is live on Raydium … via @sunrise and @Backpack Securities” (6 Oct 2026)</a> <span class="url">https://x.com/Raydium/status/2107563162237075705</span></li>
+    <li id="r7"><a href="https://x.com/Raydium/status/2106769214656958850">X: @Raydium, “Stonk Capital Markets on Raydium” (4 Oct 2026)</a> <span class="url">https://x.com/Raydium/status/2106769214656958850</span></li>
+    <li id="r8"><a href="https://docs.raydium.io/getting-started/faq">Raydium Docs: FAQ (incl. “Still stuck?”)</a> <span class="url">https://docs.raydium.io/getting-started/faq</span></li>
+    <li id="r9"><a href="https://discord.gg/raydium">Discord: discord.gg/raydium</a> <span class="url">https://discord.gg/raydium</span></li>
+    <li id="r10"><a href="https://docs.raydium.io/getting-started/trust-and-safety">Raydium Docs: Trust &amp; safety</a> <span class="url">https://docs.raydium.io/getting-started/trust-and-safety</span></li>
+    <li id="r11"><a href="https://raydium.io/">raydium.io (site metadata: “An on-chain order book AMM powering the evolution of DeFi”)</a> <span class="url">https://raydium.io/</span></li>
+    <li id="r12"><a href="https://docs.raydium.io/introduction/history-and-milestones">Raydium Docs: History and milestones</a> <span class="url">https://docs.raydium.io/introduction/history-and-milestones</span></li>
+  </ol>
+</footer>
+</body>
+</html>
